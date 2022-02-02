@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS descendant selectors</title>
+        <style>
+            .orange {
+                background-color: orange;
+            }
+
+            .yellow {
+                background-color: yellow;
+            }
+
+            .purple {
+                background-color: purple;
+                color: white;
+            }
+
+            p .purple {
+                color: purple;
+                background-color: transparent;
+            }
+
+            ul.spacey li strong {
+                line-height: 2em;
+            }
+        </style>
+    </head>
+    <body>
