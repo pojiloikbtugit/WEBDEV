@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict"
+            function makeUser() {
+            return {
+                    name: "John",
+                    ref: this
+                };
+            }
+
+            let user = makeUser();
+
+            alert( user.ref.name ); // ERROR
+        </script>
+    </body>
+</html>
